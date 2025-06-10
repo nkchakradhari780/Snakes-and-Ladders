@@ -1,0 +1,50 @@
+.container{
+    width: 99vw;
+    height: 97vh;
+    display: flex;
+    justify-content: center;
+    background-color:rgb(42, 52, 61);
+    flex-wrap: wrap;
+}
+
+.dice-box{
+    width: 300px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-size: 2em;
+    color: #333;
+}
+
+.board-container {
+    width: 95%;
+    height: 85%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.name{
+    font-size: 1.5em;
+    color: #333;
+    margin: 10px;
+    text-align: center;
+    width: 150px;
+    border-radius: 10px;
+    background-color: aquamarine;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.dice-val{
+    font-size: 1.5em;
+    color: #333;
+    margin: 10px;
+    text-align: center;
+    width: 150px;
+    background-color: pink;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}

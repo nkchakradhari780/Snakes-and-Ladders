@@ -7,5 +7,5 @@ import { Component } from '@angular/core';
   styleUrl: './player.css'
 })
 export class Player {
-
+  playerOne = false
 }

@@ -1,0 +1,11 @@
+.row{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 80vh;
+    height: 7.5vh;
+    gap: 3px;
+    background-color: lightgray;
+    color: blanchedalmond;
+}

@@ -1,1 +1,13 @@
-<p>board-row works!</p>
+<div class="row">
+  <ng-container *ngIf="isEven(); else reverseRow">
+    <div *ngFor="let box of boxes; let i = index">
+      <app-board-box [boxIndex]="box" [rowIndex]="rowIndex"></app-board-box>
+    </div>
+</ng-container>
+
+<ng-template #reverseRow>
+    <div *ngFor="let box of boxes.reverse(); let i = index">
+      <app-board-box [boxIndex]="box" [rowIndex]="rowIndex"></app-board-box>
+    </div>
+  </ng-template>
+</div>

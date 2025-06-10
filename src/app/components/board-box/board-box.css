@@ -1,0 +1,17 @@
+.box{
+    width: 7.5vh;
+    height: 50px;
+    background-color: black;
+    font-size: 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* .box-index{
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(0, -50%);
+
+} */

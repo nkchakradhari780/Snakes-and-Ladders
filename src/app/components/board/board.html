@@ -1,1 +1,5 @@
-<p>board works!</p>
+<div class="board">
+    <div *ngFor="let row of rows.reverse(); let i = index">
+        <app-board-row [rowIndex]="row"></app-board-row>
+    </div>
+</div>
