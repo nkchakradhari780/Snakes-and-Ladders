@@ -1,4 +1,8 @@
 span {
     font-size: x-large;
+    z-index: 1000;
+    position: relative;
+    text-align: center;
+    bottom: 20px;
 }
 

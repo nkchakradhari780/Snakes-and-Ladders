@@ -1,11 +1,13 @@
-import { Component } from '@angular/core';
+import { Component, EventEmitter, Input, Output } from '@angular/core';
 
 @Component({
   selector: 'app-player',
   imports: [],
   templateUrl: './player.html',
-  styleUrl: './player.css'
+  styleUrl: './player.css',
 })
 export class Player {
-  playerOne = false
+  @Input() name: string = '';
+  @Input() symbol: string = '';
+  @Input() score: number = 0;
 }

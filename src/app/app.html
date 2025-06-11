@@ -4,12 +4,11 @@
   </div>
   <div class="dice-box">
     <span class="name">
-      h
+      {{playerOne ? 'Player 1' : 'Player 2'}}
     </span>
-    <span class="dice-val">
-      5
+    <span class="dice-val" (click)="rollDice()">
+      {{diceVal}}
     </span>
   </div>
 </div>
-
 <router-outlet />
