@@ -1,4 +1,5 @@
 <div class="container">
+  <app-winner-box [name]="Winner" *ngIf="playerOneScore === 100 || playerTwoScore === 100 "/>
   <div class="board-container">
     <app-board />
   </div>

@@ -1,0 +1,15 @@
+.winner-box{
+    background-color: aqua;
+    width: 90vw;
+    height: 250px;
+    position: absolute;
+    z-index: 2000;
+    top: 43%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bolder;
+    font-size: xx-large;
+}

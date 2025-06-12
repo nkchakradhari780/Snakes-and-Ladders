@@ -11,4 +11,6 @@ import { CommonModule } from '@angular/common';
 export class Board {
   // rows = new Array(10);
   rows = [0,1,2,3,4,5,6,7,8,9]
+
+  reverseRow = this.rows.reverse()
 }
