@@ -10,7 +10,6 @@ import { GameService } from '../../service/game-service';
   imports: [FormsModule, CommonModule, Player],
   templateUrl: './board-box.html',
   styleUrl: './board-box.css',
-  // ❌ Removed providers array to use shared GameService
 })
 export class BoardBox implements OnInit {
   @Input() boxIndex!: number;
